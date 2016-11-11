@@ -10,7 +10,7 @@
 
 #ipython_notebook img{
 display:block;
-background: url(/custom/logo.png) no-repeat;
+background: url(logo.png) no-repeat;
 width: 233px;
 height: 33px;
 padding-left: 233px;
@@ -31,7 +31,12 @@ div#notebook {background-color: #cbc9b1; border-top: none;}
 div#notebook-container {background-color: #cbc9b1;}
 
 /*Don't need to see jupyter logo, filename, last saved, etc.*/
-/*div#header-container { display: none; }*/
+div#header {background-color: #cbc9b1;}
+div#header-container {background-color: #cbc9b1;}
+div#menubar-container {background-color: #cbc9b1;}
+div#menus {background-color: #cbc9b1;}
+div#maintoolbar {background-color: #cbc9b1;}
+div#input {background-color: #cbc9b1;}
 
 div.prompt.input_prompt { font-size: 10px; }
 div.prompt.output_prompt { font-size: 10px; }
