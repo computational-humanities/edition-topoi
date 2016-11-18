@@ -10,10 +10,10 @@ ENV DASHBOARDS_VERSION 0.6.1
 ENV CMS_VERSION 0.6.1
 
 # get to the latest jupyter release and necessary libraries
-#RUN conda install -y jupyter
+RUN conda install -y jupyter
 
 # install incubator extensions
-RUN pip install jupyter_dashboards==$DASHBOARDS_VERSION #\
+RUN pip install jupyter_dashboards==$DASHBOARDS_VERSION \
     jupyter_cms==$CMS_VERSION
 
 RUN jupyter dashboards install --user --symlink && \
