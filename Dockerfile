@@ -37,7 +37,7 @@ RUN pip install -r requirements.txt
 
 RUN conda install -y -c conda-forge ipywidgets
 
-RUN mkdir /home/main/.jupyter/custom
+RUN mkdir -p /home/main/.jupyter/custom
 
 COPY custom.css /home/main/.jupyter/custom
 
