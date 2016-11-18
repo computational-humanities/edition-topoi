@@ -35,7 +35,7 @@ RUN conda install -c conda-forge jupyter_contrib_nbextensions && \
     bash -c "source activate python3 && \
         pip install -r requirements.txt"
 
-#RUN conda install -y -c conda-forge ipywidgets
+RUN conda install -y -c conda-forge ipywidgets
 
 RUN mkdir -p /home/main/.jupyter/custom
 
