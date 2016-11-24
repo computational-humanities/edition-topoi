@@ -1,7 +1,5 @@
-# edition Topoi -- notebook repository
+# Edition Topoi -- Notebook Repository
 
-see [edition topoi](http://www.edition-topoi.org) for more information
+This repository contains some Jupyter Notebooks showcasting the development of methods for Digital Humanities. 
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/computational-humanities/edition-topoi)
-
-
+See [Edition Topoi Homepage](http://www.edition-topoi.org) for more information. 
